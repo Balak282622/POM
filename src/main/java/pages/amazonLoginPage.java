@@ -1,12 +1,12 @@
 package pages;
 
-import java.awt.List;
+import java.util.List;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.DataProvider;
+//import org.testng.annotations.DataProvider;
 
 import base.TestBase;
 
@@ -34,7 +34,7 @@ public class amazonLoginPage extends TestBase {
 	WebElement otherSigninIssueLink;
 	
 	@FindBy(xpath = "//div[contains(@class,'a-size-mini')]//a[contains(@class,'a-link-normal')]")
-	java.util.List<WebElement> a;
+	List<WebElement> a;
 	
 	public amazonLoginPage() {
 		PageFactory.initElements(driver, this);

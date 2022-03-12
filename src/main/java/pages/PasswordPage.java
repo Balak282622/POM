@@ -16,7 +16,7 @@ public class PasswordPage extends TestBase {
 	@FindBy(id = "ap_password")
 	WebElement passwordIP;
 	
-	@FindBy(id = "signInSubmit1")
+	@FindBy(id = "signInSubmit")
 	WebElement submit; 
 	
 	@FindBy(xpath = "//div[@class='a-alert-content'][1]//li")

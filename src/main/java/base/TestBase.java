@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.TestUtil;
 import utils.WebEventListner;
 
@@ -23,7 +24,9 @@ public class TestBase {
 	
 	public TestBase() {
 		try {
+			
 			p = new Properties();
+			
 			FileInputStream ip = new FileInputStream("D:\\QA automation\\eclipse\\Practice_Workspace\\FrameworkPractice\\src\\main\\java\\Config\\porp.properties");
 			p.load(ip);
 		}catch(FileNotFoundException e) {
@@ -42,11 +45,13 @@ public class TestBase {
 		String browser = p.getProperty("browser");
 		
 		if(browser.equals("Chrome")) {
-			System.setProperty(p.getProperty("chromeWebdriver"), p.getProperty("chromeWebdriverPath"));
+//			System.setProperty(p.getProperty("chromeWebdriver"), p.getProperty("chromeWebdriverPath"));
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
 		else if(browser.equals("Firefox")) {
-			System.setProperty(p.getProperty("geckoWebdriver"), p.getProperty("geckoWebdriverPath"));
+//			System.setProperty(p.getProperty("geckoWebdriver"), p.getProperty("geckoWebdriverPath"));
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		

@@ -1,57 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-14T04:52:19Z" name="Surefire suite" finished-at="2022-02-14T04:53:53Z" duration-ms="94508">
+  <suite name="Surefire suite" duration-ms="418240" started-at="2022-03-12T18:59:25Z" finished-at="2022-03-12T19:06:24Z">
     <groups>
     </groups>
-    <test started-at="2022-02-14T04:52:19Z" name="Surefire test" finished-at="2022-02-14T04:53:53Z" duration-ms="94508">
-      <class name="tests.AmazonLoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:52:19Z" name="setup" finished-at="2022-02-13T23:52:44Z" duration-ms="24871" status="PASS">
+    <test name="Surefire test" duration-ms="418240" started-at="2022-03-12T18:59:25Z" finished-at="2022-03-12T19:06:24Z">
+      <class name="tests.PasswordPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PasswordPageTest@66d2e7d9]" name="setup" is-config="true" duration-ms="26933" started-at="2022-03-12T14:00:49Z" finished-at="2022-03-12T14:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="a()[pri:1, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:52:44Z" name="a" finished-at="2022-02-13T23:52:44Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:52:44Z" name="tearDown" finished-at="2022-02-13T23:52:46Z" duration-ms="1821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:52:46Z" name="setup" finished-at="2022-02-13T23:53:06Z" duration-ms="20443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySigninLabel()[pri:2, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:06Z" name="verifySigninLabel" finished-at="2022-02-13T23:53:06Z" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySigninLabel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:06Z" name="tearDown" finished-at="2022-02-13T23:53:11Z" duration-ms="4513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:11Z" name="setup" finished-at="2022-02-13T23:53:31Z" duration-ms="20068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkTitle()[pri:3, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:31Z" name="checkTitle" finished-at="2022-02-13T23:53:31Z" duration-ms="5" status="PASS">
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:tests.PasswordPageTest@66d2e7d9]" name="checkTitle" duration-ms="4" started-at="2022-03-12T14:01:16Z" finished-at="2022-03-12T14:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:31Z" name="tearDown" finished-at="2022-02-13T23:53:32Z" duration-ms="1313" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@66d2e7d9]" name="tearDown" is-config="true" duration-ms="2043" started-at="2022-03-12T14:01:16Z" finished-at="2022-03-12T14:01:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:32Z" name="setup" finished-at="2022-02-13T23:53:52Z" duration-ms="20183" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PasswordPageTest@66d2e7d9]" name="setup" is-config="true" duration-ms="27967" started-at="2022-03-12T14:02:43Z" finished-at="2022-03-12T14:03:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="enterEmail()[pri:4, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:52Z" name="enterEmail" finished-at="2022-02-13T23:53:52Z" duration-ms="268" status="PASS">
+        <test-method status="PASS" signature="verifyEmailId()[pri:2, instance:tests.PasswordPageTest@66d2e7d9]" name="verifyEmailId" duration-ms="60" started-at="2022-03-12T14:03:11Z" finished-at="2022-03-12T14:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@66d2e7d9]" name="tearDown" is-config="true" duration-ms="2248" started-at="2022-03-12T14:03:11Z" finished-at="2022-03-12T14:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PasswordPageTest@66d2e7d9]" name="setup" is-config="true" duration-ms="36421" started-at="2022-03-12T14:04:32Z" finished-at="2022-03-12T14:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterWrongpassword()[pri:3, instance:tests.PasswordPageTest@66d2e7d9]" name="enterWrongpassword" duration-ms="847" started-at="2022-03-12T14:05:08Z" finished-at="2022-03-12T14:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongpassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@66d2e7d9]" name="tearDown" is-config="true" duration-ms="2063" started-at="2022-03-12T14:05:09Z" finished-at="2022-03-12T14:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordPageTest -->
+      <class name="tests.AmazonLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="13179" started-at="2022-03-12T13:59:25Z" finished-at="2022-03-12T13:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="70484" started-at="2022-03-12T13:59:38Z" finished-at="2022-03-12T14:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="a()[pri:1, instance:tests.AmazonLoginTest@174d20a]" name="a" duration-ms="0" started-at="2022-03-12T13:59:38Z" finished-at="2022-03-12T13:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="13950" started-at="2022-03-12T14:01:18Z" finished-at="2022-03-12T14:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySigninLabel()[pri:2, instance:tests.AmazonLoginTest@174d20a]" name="verifySigninLabel" duration-ms="109" started-at="2022-03-12T14:01:32Z" finished-at="2022-03-12T14:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="70572" started-at="2022-03-12T14:01:32Z" finished-at="2022-03-12T14:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="8153" started-at="2022-03-12T14:03:13Z" finished-at="2022-03-12T14:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkTitle()[pri:3, instance:tests.AmazonLoginTest@174d20a]" name="checkTitle" duration-ms="4" started-at="2022-03-12T14:03:21Z" finished-at="2022-03-12T14:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="70722" started-at="2022-03-12T14:03:21Z" finished-at="2022-03-12T14:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="9726" started-at="2022-03-12T14:05:11Z" finished-at="2022-03-12T14:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="needHelp()[pri:4, instance:tests.AmazonLoginTest@174d20a]" name="needHelp" duration-ms="439" started-at="2022-03-12T14:05:21Z" finished-at="2022-03-12T14:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- needHelp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="2919" started-at="2022-03-12T14:05:21Z" finished-at="2022-03-12T14:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="8894" started-at="2022-03-12T14:05:24Z" finished-at="2022-03-12T14:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFooter()[pri:5, instance:tests.AmazonLoginTest@174d20a]" name="verifyFooter" duration-ms="204" started-at="2022-03-12T14:05:33Z" finished-at="2022-03-12T14:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="2385" started-at="2022-03-12T14:05:33Z" finished-at="2022-03-12T14:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="9004" started-at="2022-03-12T14:05:36Z" finished-at="2022-03-12T14:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterWrongEmail(java.lang.String)[pri:6, instance:tests.AmazonLoginTest@174d20a]" name="enterWrongEmail" duration-ms="674" started-at="2022-03-12T14:05:45Z" data-provider="WrongEmail" finished-at="2022-03-12T14:05:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="3137" started-at="2022-03-12T14:05:45Z" finished-at="2022-03-12T14:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="8285" started-at="2022-03-12T14:05:48Z" finished-at="2022-03-12T14:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterWrongEmail(java.lang.String)[pri:6, instance:tests.AmazonLoginTest@174d20a]" name="enterWrongEmail" duration-ms="534" started-at="2022-03-12T14:05:57Z" data-provider="WrongEmail" finished-at="2022-03-12T14:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbbbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="2448" started-at="2022-03-12T14:05:57Z" finished-at="2022-03-12T14:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="8583" started-at="2022-03-12T14:06:00Z" finished-at="2022-03-12T14:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterWrongEmail(java.lang.String)[pri:6, instance:tests.AmazonLoginTest@174d20a]" name="enterWrongEmail" duration-ms="564" started-at="2022-03-12T14:06:08Z" data-provider="WrongEmail" finished-at="2022-03-12T14:06:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cccc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="3437" started-at="2022-03-12T14:06:09Z" finished-at="2022-03-12T14:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="setup" is-config="true" duration-ms="8252" started-at="2022-03-12T14:06:12Z" finished-at="2022-03-12T14:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterEmail()[pri:7, instance:tests.AmazonLoginTest@174d20a]" name="enterEmail" duration-ms="675" started-at="2022-03-12T14:06:21Z" finished-at="2022-03-12T14:06:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@eb21112]" started-at="2022-02-13T23:53:52Z" name="tearDown" finished-at="2022-02-13T23:53:53Z" duration-ms="939" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@174d20a]" name="tearDown" is-config="true" duration-ms="2321" started-at="2022-03-12T14:06:21Z" finished-at="2022-03-12T14:06:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

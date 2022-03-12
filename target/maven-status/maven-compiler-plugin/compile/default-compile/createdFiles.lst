@@ -3,5 +3,6 @@ data\DataFile.class
 pages\amazonLoginPage.class
 report\ExtReport.class
 utils\WebEventListner.class
+pages\PasswordPage.class
 utils\Xls_Reader.class
 utils\TestUtil.class

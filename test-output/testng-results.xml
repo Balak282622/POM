@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-27T20:49:45Z" name="Default suite" finished-at="2022-02-27T20:50:30Z" duration-ms="44648">
+  <suite started-at="2022-03-07T03:22:38Z" name="Suite" finished-at="2022-03-07T03:28:32Z" duration-ms="353846">
     <groups>
     </groups>
-    <test started-at="2022-02-27T20:49:45Z" name="Default test" finished-at="2022-02-27T20:50:30Z" duration-ms="44648">
+    <test started-at="2022-03-07T03:22:38Z" name="Test" finished-at="2022-03-07T03:28:32Z" duration-ms="353846">
       <class name="tests.PasswordPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PasswordPageTest@10f7f7de]" started-at="2022-02-27T15:49:45Z" name="setup" finished-at="2022-02-27T15:50:08Z" duration-ms="22924" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:22:49Z" name="setup" finished-at="2022-03-06T22:23:13Z" duration-ms="23759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="enterWrongpassword()[pri:3, instance:tests.PasswordPageTest@10f7f7de]" started-at="2022-02-27T15:50:08Z" name="enterWrongpassword" finished-at="2022-02-27T15:50:28Z" duration-ms="20224" status="FAIL">
+        <test-method signature="checkTitle()[pri:1, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:23:13Z" name="checkTitle" finished-at="2022-03-06T22:23:13Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:23:13Z" name="tearDown" finished-at="2022-03-06T22:23:14Z" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:23:29Z" name="setup" finished-at="2022-03-06T22:23:53Z" duration-ms="23392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailId()[pri:2, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:23:53Z" name="verifyEmailId" finished-at="2022-03-06T22:23:53Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailId -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:23:53Z" name="tearDown" finished-at="2022-03-06T22:23:54Z" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:25:13Z" name="setup" finished-at="2022-03-06T22:25:40Z" duration-ms="26666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterWrongpassword()[pri:3, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:25:40Z" name="enterWrongpassword" finished-at="2022-03-06T22:26:00Z" duration-ms="20273" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #signInSubmit1
@@ -19,8 +43,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-TA34NI2', ip: '192.168.87.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 4556, moz:profile: C:\Users\Owner\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1476c38-19f2-4b9c-8841-fe1bfeb97bf1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304162637, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15384, moz:profile: C:\Users\Owner\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6d4577c-5929-4d49-a86b-a3521f69bc50
 *** Element info: {Using=id, value=signInSubmit1}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +53,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-TA34NI2', ip: '192.168.87.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 4556, moz:profile: C:\Users\Owner\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1476c38-19f2-4b9c-8841-fe1bfeb97bf1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304162637, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15384, moz:profile: C:\Users\Owner\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6d4577c-5929-4d49-a86b-a3521f69bc50
 *** Element info: {Using=id, value=signInSubmit1}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -52,11 +76,11 @@ Session ID: c1476c38-19f2-4b9c-8841-fe1bfeb97bf1
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
 	at pages.PasswordPage.enterWrongpassword(PasswordPage.java:39)
 	at tests.PasswordPageTest.enterWrongpassword(PasswordPageTest.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -90,11 +114,142 @@ Session ID: c1476c38-19f2-4b9c-8841-fe1bfeb97bf1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterWrongpassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@10f7f7de]" started-at="2022-02-27T15:50:28Z" name="tearDown" finished-at="2022-02-27T15:50:30Z" duration-ms="1489" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordPageTest@18e36d14]" started-at="2022-03-06T22:26:00Z" name="tearDown" finished-at="2022-03-06T22:26:02Z" duration-ms="2071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.PasswordPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.AmazonLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:22:38Z" name="setup" finished-at="2022-03-06T22:22:46Z" duration-ms="7619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="a()[pri:1, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:22:46Z" name="a" finished-at="2022-03-06T22:22:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:22:46Z" name="tearDown" finished-at="2022-03-06T22:22:49Z" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:23:14Z" name="setup" finished-at="2022-03-06T22:23:26Z" duration-ms="11946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySigninLabel()[pri:2, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:23:26Z" name="verifySigninLabel" finished-at="2022-03-06T22:23:26Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:23:26Z" name="tearDown" finished-at="2022-03-06T22:23:29Z" duration-ms="2797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:23:54Z" name="setup" finished-at="2022-03-06T22:24:02Z" duration-ms="8099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTitle()[pri:3, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:24:02Z" name="checkTitle" finished-at="2022-03-06T22:24:02Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:24:02Z" name="tearDown" finished-at="2022-03-06T22:25:13Z" duration-ms="70521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:26:02Z" name="setup" finished-at="2022-03-06T22:26:10Z" duration-ms="8211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="needHelp()[pri:4, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:26:10Z" name="needHelp" finished-at="2022-03-06T22:26:11Z" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- needHelp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:26:11Z" name="tearDown" finished-at="2022-03-06T22:26:13Z" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:26:13Z" name="setup" finished-at="2022-03-06T22:26:22Z" duration-ms="8397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFooter()[pri:5, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:26:22Z" name="verifyFooter" finished-at="2022-03-06T22:26:23Z" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:26:23Z" name="tearDown" finished-at="2022-03-06T22:27:33Z" duration-ms="70584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:27:33Z" name="setup" finished-at="2022-03-06T22:27:44Z" duration-ms="10986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterWrongEmail(java.lang.String)[pri:6, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:27:44Z" name="enterWrongEmail" data-provider="WrongEmail" finished-at="2022-03-06T22:27:46Z" duration-ms="1694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdasd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:27:46Z" name="tearDown" finished-at="2022-03-06T22:27:49Z" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:27:49Z" name="setup" finished-at="2022-03-06T22:27:59Z" duration-ms="10658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterWrongEmail(java.lang.String)[pri:6, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:27:59Z" name="enterWrongEmail" data-provider="WrongEmail" finished-at="2022-03-06T22:28:00Z" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbbbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:00Z" name="tearDown" finished-at="2022-03-06T22:28:06Z" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:06Z" name="setup" finished-at="2022-03-06T22:28:16Z" duration-ms="10611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterWrongEmail(java.lang.String)[pri:6, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:16Z" name="enterWrongEmail" data-provider="WrongEmail" finished-at="2022-03-06T22:28:17Z" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cccc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterWrongEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:17Z" name="tearDown" finished-at="2022-03-06T22:28:20Z" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:20Z" name="setup" finished-at="2022-03-06T22:28:29Z" duration-ms="8744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterEmail()[pri:7, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:29Z" name="enterEmail" finished-at="2022-03-06T22:28:29Z" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AmazonLoginTest@418c5a9c]" started-at="2022-03-06T22:28:29Z" name="tearDown" finished-at="2022-03-06T22:28:32Z" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AmazonLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
