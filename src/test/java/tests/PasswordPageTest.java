@@ -30,18 +30,18 @@ public class PasswordPageTest extends TestBase {
 		TestUtil.runTimeInfo("hi", "Hello");
 	}
 	
-	@Test(priority=1)
+//	@Test(priority=1)
 	public void checkTitle() {
 		String title = alp.validateLoginPageTitle();
 		Assert.assertEquals(title, "Amazon Sign In");
 	}
 	
-	@Test(priority = 2)
+//	@Test(priority = 2)
 	public void verifyEmailId() {
 		Assert.assertTrue(pwdp.verifyEmailId(), "Lable is missing");
 	}
 	
-	@Test(priority = 3)
+//	@Test(priority = 3)
 	public void enterWrongpassword() {
 		pwdp.enterWrongpassword(p.getProperty("email"));
 		System.out.println("Enter password"+" : "+p.getProperty("email"));

@@ -35,12 +35,12 @@ public class AmazonLoginTest extends TestBase {
 //		pwdp = new PasswordPage();
 //		TestUtil.runTimeInfo("hi", "Hello");
 	}
-	@Test(priority = 1)
+//	@Test(priority = 1)
 	public void a() {
 		System.out.println("Hello");
 	}
 	
-	@Test(priority = 2)
+//	@Test(priority = 2)
 	public void verifySigninLabel() {
 		Assert.assertTrue(alp.verifySigninLabel(), "Lable is missing");
 	}
@@ -51,14 +51,14 @@ public class AmazonLoginTest extends TestBase {
 		Assert.assertEquals(title, "Amazon Sign In");
 	}
 	
-	@Test(priority = 4)
+//	@Test(priority = 4)
 	public void needHelp() {
 		alp.needHelpExpand();
 		Assert.assertTrue(alp.verifyForgetPass());
 		Assert.assertTrue(alp.verifyOtherissues());
 	}
 	
-	@DataProvider(name="WrongEmail")
+//	@DataProvider(name="WrongEmail")
 	public Object[] WrongEmailData(){
 		
 		Object data[] = new Object[tu.xl.getRowCount("contacts")];
@@ -69,14 +69,14 @@ public class AmazonLoginTest extends TestBase {
 		return data;
 	}
 	
-	@Test(priority = 6,dataProvider = "WrongEmail")
+//	@Test(priority = 6,dataProvider = "WrongEmail")
 	public void enterWrongEmail(String email) {
 		alp.enterWrongEmail(email);
 		System.out.println("Enter email"+" : "+ email);
 		Assert.assertEquals(alp.readError(), "We cannot find an account with that e-mail address");
 	}
 	
-	@Test(priority = 7)
+//	@Test(priority = 7)
 	public void enterEmail() {
 		pwdp=alp.enterEmail(p.getProperty("email"));
 		System.out.println("Enter email"+" : ");
@@ -84,7 +84,7 @@ public class AmazonLoginTest extends TestBase {
 		Assert.assertEquals(title, "Amazon Sign In");
 	}
 	
-	@Test(priority = 5)
+//	@Test(priority = 5)
 	public void verifyFooter() throws InterruptedException {
 		for (WebElement all : alp.footerList()) {
 			System.out.println(all.getText());
